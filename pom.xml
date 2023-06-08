@@ -5,7 +5,7 @@
   <groupId>io.github.sfeir-open-source</groupId>
   <artifactId>sonar-clover-plugin</artifactId>
   <packaging>sonar-plugin</packaging>
-  <version>4.2-SNAPSHOT</version>
+  <version>4.3-SNAPSHOT</version>
 
   <name>Sonar Clover Plugin</name>
   <description>Get code coverage with http://openclover.org/</description>
@@ -61,6 +61,20 @@
       <scope>provided</scope>
     </dependency>
 
+    
+        <dependency>
+      <groupId>org.codehaus.woodstox</groupId>
+      <artifactId>woodstox-core-lgpl</artifactId>
+      <version>4.4.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.codehaus.staxmate</groupId>
+      <artifactId>staxmate</artifactId>
+      <version>2.0.1</version>
+    </dependency>
+    
+    
     <dependency>
       <groupId>commons-lang</groupId>
       <artifactId>commons-lang</artifactId>
