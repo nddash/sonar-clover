@@ -27,6 +27,6 @@ jobs:
         uses: actions/upload-artifact@v3.1.2
         with:
           name: clover jar publish
-          path: /usr/src/target/sonar-clover-plugin.jar*"
+          path: ${{github.workspace }}/target/sonar-clover-plugin.jar
         if: ${{ always() }}  
     
