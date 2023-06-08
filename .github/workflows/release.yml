@@ -19,5 +19,6 @@ jobs:
       - uses: technote-space/auto-cancel-redundant-workflow@v1
       - uses: actions/checkout@v2
       - run: make run-test
-      - run: make quality-analysis
-      - run: make deploy-package
+      - run: make build-package
+      #- run: make quality-analysis
+      #- run: make deploy-package
